@@ -20,10 +20,13 @@ const NavigatePizza = () => {
         <div className="navigate-pizza">
             <div className="container">
                 <img
-                    src={`${process.env.PUBLIC_URL}/img/pizza-items/${currentItemPizza?.img}`}
+                    src={`${process.env.PUBLIC_URL}/img/pizza-items/${
+                        currentItemPizza?.img || ""
+                    }`}
                     alt=""
                     className="navigate-pizza__img"
                 />
+
                 <div className="navigate-pizza__information">
                     <h1 className="navigate-pizza__name">
                         {currentItemPizza?.name}

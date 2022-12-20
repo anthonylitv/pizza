@@ -1,9 +1,9 @@
 import "./styles/Cart.scss"
-import { useAppDispatch, useAppSelector } from "../../hooks/redux"
-import cartSlice from "../../store/reducers/cart-slice"
-import CartContainer from "./CartContainer"
-import CartEmpty from "./CartEmpty"
-import CartReturnButton from "./CartReturnButton"
+import { useAppDispatch, useAppSelector } from "../hooks/redux"
+import cartSlice from "../store/reducers/cart-slice"
+import CartContainer from "../components/Cart/CartContainer"
+import CartEmpty from "../components/Cart/CartEmpty"
+import CartReturnButton from "../components/Cart/CartReturnButton"
 
 const Cart = () => {
     const dispatch = useAppDispatch()

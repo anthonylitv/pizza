@@ -6,7 +6,7 @@ const CartEmpty = () => {
         <section className="cart-empty">
             <img
                 className="cart-empty__img"
-                src="img/cart-empty.svg"
+                src={`${process.env.PUBLIC_URL}/img/cart-empty.svg`}
                 alt="Пустий кошик"
                 draggable={false}
             />

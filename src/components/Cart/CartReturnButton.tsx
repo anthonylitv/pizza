@@ -5,7 +5,7 @@ const CartReturnButton = () => {
     const navigate = useNavigate()
 
     const pageReturnHandler = () => {
-        navigate("/")
+        navigate(-1)
     }
 
     return (

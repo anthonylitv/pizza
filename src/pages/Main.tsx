@@ -1,6 +1,6 @@
-import KategoryContainer from "./KategoryContainer"
-import PizzaContainer from "./PizzaContainer"
-import Sorter from "./Sorter"
+import KategoryContainer from "../components/Main/KategoryContainer"
+import PizzaContainer from "../components/Main/PizzaContainer"
+import Sorter from "../components/Main/Sorter"
 import "./styles/Main.scss"
 
 const Main = () => {
