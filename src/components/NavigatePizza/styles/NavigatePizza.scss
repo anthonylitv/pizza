@@ -1,0 +1,21 @@
+.navigate-pizza {
+    padding: 40px 0;
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        column-gap: 100px;
+
+        .navigate-pizza__img {
+            max-width: 500px;
+            width: 100%;
+        }
+
+        .navigate-pizza__information {
+            .navigate-pizza_ingridients {
+                margin-top: 10px;
+            }
+        }
+    }
+}
