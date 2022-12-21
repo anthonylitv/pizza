@@ -6,15 +6,16 @@ $colorAdded: rgb(26, 198, 26);
     cursor: pointer;
     color: $colorAdd;
     padding: 13px 25px;
+    text-align: center;
     text-transform: uppercase;
     font-weight: 900;
     overflow: hidden;
     border: 1px solid transparent;
     width: 150px;
 
-    @media (max-width: 360px) {
+    @media (max-width: 424px) {
         width: 110px;
-        padding: 5px 10px;
+        padding: 9px 10px;
     }
 
     .add-to-cart__line {

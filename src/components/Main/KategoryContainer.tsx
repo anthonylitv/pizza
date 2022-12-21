@@ -13,7 +13,7 @@ const KategoryContainer = () => {
     return (
         <div className="kategories">
             {isLoading
-                ? [...new Array(7)].map((_, index) => (
+                ? [...new Array(6)].map((_, index) => (
                       <SkeletonKategory key={index} />
                   ))
                 : kategories}

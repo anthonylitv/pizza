@@ -2,6 +2,7 @@ import "./styles/NavigatePizza.scss"
 import { useParams } from "react-router-dom"
 import pizzaApi from "../../services/pizzaApi"
 import PizzaInputs from "../Main/PizzaInputs"
+import CartReturnButton from "../Cart/CartReturnButton"
 
 type NavigatePizzaParams = {
     id: string
@@ -45,6 +46,8 @@ const NavigatePizza = () => {
                             img={currentItemPizza.img}
                         />
                     )}
+
+                    <CartReturnButton />
                 </div>
             </div>
         </div>

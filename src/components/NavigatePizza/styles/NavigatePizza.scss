@@ -5,16 +5,37 @@
         width: 90%;
         margin: 0 auto;
         display: flex;
-        column-gap: 100px;
+
+        @media (max-width: 1000px) {
+            flex-direction: column;
+        }
 
         .navigate-pizza__img {
             max-width: 500px;
             width: 100%;
+            margin-right: 5%;
+
+            @media (max-width: 1000px) {
+                margin: 0 auto;
+            }
         }
 
         .navigate-pizza__information {
+            width: 100%;
+
             .navigate-pizza_ingridients {
                 margin-top: 10px;
+            }
+
+            .inputs-weight {
+                margin-top: 30px;
+            }
+
+            .pizza-item__footer {
+                margin-top: 30px;
+                display: flex;
+                justify-content: stretch;
+                margin-bottom: 60px;
             }
         }
     }

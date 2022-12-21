@@ -18,7 +18,7 @@ const Header = () => {
                     <span>ПІЦА</span>
                 </Link>
 
-                {pathname !== "/cart" && !pathname.includes("pizza") && (
+                {pathname !== "/cart" && !pathname.includes("item") && (
                     <SearchInput />
                 )}
 
